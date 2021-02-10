@@ -6,8 +6,8 @@ class CircleTest {
 
     @Test
     public void TestArea() throws Exception{
-        Circle c = new Circle(3);
+        Circle c = new Circle(4);
         double area = c.Area();
-        assertEquals(3 * 3 * Math.PI, area);
+        assertEquals(4 * 4 * Math.PI, area);
     }
 }
